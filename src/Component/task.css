@@ -1,0 +1,37 @@
+.task{
+    background-color: white;
+    border-radius: 4px;
+    color: #000;
+    min-height: 5rem;
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    cursor: move;
+}
+.bottomWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.status{
+    font-size: small;
+    background: VAR(--COLOR-GRAY-LIGHT);
+    padding: 0.25rem;
+    border-radius: 4px;
+
+}
+.ONGOING{
+    background-color: var(--COLOR-ONGOING);
+}
+.PLANNED{
+   background-color: VAR(--COLOR-GRAY-LIGHT);
+
+}
+.DONE{
+    background-color: VAR(--COLOR-DONE);
+}
+.deleteIcons{
+    color: rgb(210, 88, 88);
+    cursor: pointer;
+}
